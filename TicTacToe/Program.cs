@@ -69,7 +69,7 @@ namespace TicTacToe
                     }
                     else if (turns == 10)
                     {
-                        Console.WriteLine("\nWe have a draw!");
+                        Console.WriteLine("\nWe have a draw! Reseting game");
                         Console.ReadKey();
                         ResetPlayField();
                         break;
